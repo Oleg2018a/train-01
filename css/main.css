@@ -334,3 +334,113 @@ img {
   line-height: 1.62px;
   margin-bottom: 12px;
 }
+/* ========reviews=============== */
+.reviews {
+  background-color: var(--background-color);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.reviews-title {
+  max-width: 348px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: 1.5;
+  text-align: center;
+}
+.reviews-text {
+  max-width: 542px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+}
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 100px;
+  margin-bottom: 50px;
+}
+.reviews-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-width: 408px;
+}
+.reviews-item {
+}
+.reviews-text-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.reviews-text-list::before {
+  content: "";
+  width: 285px;
+  height: 73px;
+  background-color: #ffffff;
+}
+.button-reviews {
+  display: block;
+  min-width: 216px;
+  padding: 14px 30px;
+  border-radius: 4px;
+  margin: 0 auto;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--button-color);
+  color: #ffffff;
+}
+/* strategy */
+.strategy {
+  padding-bottom: 110px;
+  background-color: var(--background-color);
+}
+.strategy-title {
+  margin-bottom: 10px;
+  font-size: 34px;
+  line-height: 1.5;
+}
+.strategy-text {
+  margin-bottom: 40px;
+  max-width: 465px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.strategy-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.strategy-wrap {
+  padding: 24px 27px 27px 40px;
+}
+.strategy-item {
+  border-radius: 8px;
+  background-color: var(--white-text-color);
+}
+.strategy-link {
+}
+.strategy-time {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--primari-text-color);
+}
+.strategy-time-text {
+  font-weight: 700;
+}
+.strategy-text-list {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  color: var(--primari-text-color);
+}
